@@ -1,0 +1,239 @@
+*{
+    margin:0px;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    align-items: center;
+    color:white;
+    background-color: #b2efe1;
+    font-family: sans-serif;
+    padding: 30px 30px 30px 30px;
+}
+header h1{
+    color: white;
+}
+.contact-info img{
+    width:25px;
+}
+p{
+    display: flex;
+}
+.contact-info{
+    display: flex;
+}
+.topmenu{
+    color:grey;
+    text-decoration:none;
+    font-size:26px;
+    padding-left:30px;
+
+}
+nav{
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#about-me{
+    display: flex;
+}
+.gif_img{
+    width: 100px;
+}
+.intro{
+    display: flex;
+}
+.intro h3{
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #7600bc;
+}
+.intro img{
+    width: 50px;
+}
+.bio-details{
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: justify;
+
+}
+.bio{
+    padding: 50px;
+}
+.skill-box{
+    height: 350px;
+    width: 300px;
+    border: 2px solid gray;
+    border-radius:  20px;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 10px 0px gray;
+}
+.skill-box h4{
+    font-size: 30px;
+}
+.skill-box p{
+    font-size: 20px;
+}
+.skill-box img{
+    width: 100px;
+}
+.skills-container{
+    display: flex;
+    column-gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+h1{
+    color:#7600bc;
+    font-family: sans-serif;
+    font-size: 60px;
+    font-style: bold;
+    margin-bottom: 30px;
+}
+
+#skills{
+    margin: 50px 100px 50px 100px;
+}
+#projects{
+    margin: 50px 100px 50px 100px;
+}
+#projects h1{
+    color:#7600bc;
+    font-family: sans-serif;
+    font-size: 60px;
+    font-style: bold;
+    margin-bottom: 30px;
+}
+#project h2{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.para{
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+hr{
+    margin: 10px 200px 10px 200px;
+}
+#recommendations{
+    margin: 50px 100px 50px 100px;
+}
+#recommendations h1{
+    color:#7600bc;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-style: bold;
+    margin-bottom: 30px;
+
+}
+.rec{
+    width: 300px;
+    border: 2px solid black;
+    border-radius:  20px;
+    margin: 10px ;
+    padding: 20px;
+}
+.recommendations-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#recommendations h3{
+    color:#7600bc;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-style: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input,
+textarea{
+    width: 600px;
+    margin-bottom: 10px;
+}
+footer{
+    font-size: 20px;
+    align-content: center;
+    margin: 20px;
+}
+.btn{
+    height: 50px;
+    width: 50px;
+    background-color: #7600bc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 5px solid white;
+    box-shadow: 0px 0px 5px 1px grey;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.btn img{
+    width: 65%;
+    
+}
+.foot{
+    text-align: center;
+    font-family: sans-serif;
+}
+@media screen and (max-width:768px) {
+    #about-me{
+        display: block;
+    }
+    .gif_image{
+        width: 100vw;
+    }
+    .intro img{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    .intro h3{
+        text-align: center;
+        font-size:  40px;
+    }
+    .bio-details p{
+        align-content: center;
+    }    
+   
+    .personal-details h1{
+        margin-bottom:0px;
+        font-size:26px;
+    }
+    .contact-info{
+        font-size: 15px;
+    }
+    header{
+        justify-content: center;
+    }
+    #skills h1{
+        text-align: center;
+
+    }
+}
+
+
+
